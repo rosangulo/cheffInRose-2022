@@ -164,13 +164,13 @@
                     position: relative;
                     .floatPar {
                       @include caja-flex(center, center, row wrap);
-                      font-size: 2.25em;
+                      font-size: 2.1em;
                       color:$fondoNav;
-                      border-radius: 15%;
-                      width: 80%;
-                      height: 80%;
+                      border-radius: 25%;
+                      width: 85%;
+                      height: 85%;
                       position: absolute;
-                      padding: 0.65em;
+                      padding: 0.45em;
                       top: 50%;
                       left: 50%;
                       transform: translate(-50%, -50%);
@@ -181,6 +181,7 @@
                       border-style: dashed solid;
                       visibility: hidden;
                       h3{
+                        font-size: 1.6em;
                         font-weight: bold;
                       }
                       p{
@@ -188,7 +189,7 @@
                       }
 
                       a{
-                       /* margin-top: 0.2em;*/
+                       
                         color: $li;
                         font-weight: bold;
                         &:hover{
@@ -330,9 +331,9 @@
 
             .snh {
 
-                font-size: 2.1em;
+                font-size: 2.6em;
                 /*width: inherit;*/
-                color: #735d78ff;
+                color: $rosaTerroso;
                 font-weight: bold;
             }
 
