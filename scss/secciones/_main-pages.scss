@@ -163,7 +163,7 @@
                     border-radius: 25%;
                     position: relative;
                     .floatPar {
-                      @include caja-flex(center, center, row wrap);
+                      @include caja-flex(center, space-around, row wrap);
                       font-size: 2.1em;
                       color:$fondoNav;
                       border-radius: 25%;
@@ -185,10 +185,12 @@
                         font-weight: bold;
                       }
                       p{
+                        
                         font-size: 0.9em;
                       }
 
                       a{
+                        
                        
                         color: $li;
                         font-weight: bold;

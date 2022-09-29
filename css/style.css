@@ -237,7 +237,7 @@ footer {
           .mainProm .scrollspy-example .divisiones .grid-container div .floatPar {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: space-around;
             flex-flow: row wrap;
             font-size: 2.1em;
             color: #efd3d0;
