@@ -156,130 +156,6 @@ footer {
         box-shadow: 5px 8px 12px #d8e2dcff;
         opacity: 0.95; }
 
-/*.mainProd {
-    .indiceprod {
-        position: relative;
-
-        a img {
-            position: relative;
-            width: 35em;
-            height: 32em;
-            margin: 15px;
-
-            &:hover {
-                opacity: 0.8;
-            }
-        }
-
-
-        .aclaracion {
-            position: relative;
-            display: block;
-            text-align: center;
-            opacity: 0.8;
-            font-family: 'Fauna One', serif;
-            color: #df96c2;
-            font-size: 2em;
-            background-color: #3a2b2a;
-            margin-left: 20px;
-            margin-right: 15px;
-        }
-
-    }
-
-    .divisiones {
-        margin-top: 200px;
-        font-size: 10px;
-
-        .subindpro {
-            display: flex;
-            justify-content: center;
-            font-size: 2em;
-
-            h2 {
-                color: rgb(242, 148, 165);
-            }
-
-            ul li a {
-                font-size: 1em;
-                font-family: 'Fauna One', serif;
-                font-weight: bold;
-                color: #ffafccff;
-
-                &:hover {
-                    color: #b392acff;
-                }
-
-            }
-
-
-        }
-
-        .grid-container {
-            max-width: 850px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            align-items: center;
-            justify-items: center;
-            justify-content: center;
-            grid-row-gap: 15px;
-
-            div {
-                width: 25em;
-                height: 25em;
-                overflow: hidden;
-                border-radius: 25%;
-
-                .prod2a {
-
-                    width: 26em;
-                    height: 27em;
-
-                    
-                    &:hover {
-                        transform: scale(1.1) translate(3px, 3px);
-                        transition: 1s;
-                    }
-                }
-
-                .prod2b {
-                    width: 37em;
-                    height: 25em;
-
-                    &:hover {
-                        transform: scale(1.1) translate(3px, 3px);
-                        transition: 1s;
-                    }
-                }
-
-
-                .prod2c {
-                    width: 25em;
-                    height: 29em;
-
-                    &:hover {
-                        transform: scale(1.1) translate(3px, 3px);
-                        transition: 1s;
-                    }
-                }
-
-                .prod2d {
-                    position: relative;
-                    width: 35em;
-                    height: 35em;
-
-                    &:hover {
-                        transform: scale(1.1) translate(3px, 3px);
-                        transition: 1s;
-                    }
-                }
-            }
-
-        }
-    }
-
-}*/
 .mainProm {
   scroll-behavior: smooth; }
   .mainProm section {
@@ -374,7 +250,7 @@ footer {
             left: 50%;
             transform: translate(-50%, -50%);
             opacity: 0;
-            background-color: #735d78ff;
+            background-color: #9d8189ff;
             text-align: center;
             text-shadow: 0 0 8px black;
             border-style: dashed solid;
@@ -389,9 +265,6 @@ footer {
               font-weight: bold; }
               .mainProm .scrollspy-example .divisiones .grid-container div .floatPar a:hover {
                 color: #f595ce; }
-            .mainProm .scrollspy-example .divisiones .grid-container div .floatPar:hover {
-              opacity: 0.85;
-              transition: 1s; }
           .mainProm .scrollspy-example .divisiones .grid-container div .prod2a {
             width: 26em; }
           .mainProm .scrollspy-example .divisiones .grid-container div .prod2b {
@@ -406,8 +279,8 @@ footer {
             opacity: 0.9;
             transition: 1s; }
           .mainProm .scrollspy-example .divisiones .grid-container div:hover img {
-            transform: scale(1.1) translate(3px, 3px);
-            transition: 1s; }
+            transform: scale(1.3) translate(3px, 3px);
+            transition: 4s; }
 
 .mainContact {
   font-size: 16px;
