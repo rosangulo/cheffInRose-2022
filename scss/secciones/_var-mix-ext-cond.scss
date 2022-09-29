@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+
+
+
+/*VARIABLES  Fonts*/
+$cinzel: 'Cinzel', serif;
+$fauna: 'Fauna One', serif;
+$cursiva:'Dancing Script', cursive;
+$fira: 'Fira Sans Condensed', sans-serif;
+$notoSerif: 'Noto Serif', serif;
+$pacifico: 'Pacifico', cursive;
+
+
+
+/* CSS HEX*/
+$fondoNav:#efd3d0;
+$li: #d3697c ;
+$platinum: #d8e2dcff;
+$blanco: #ffffffff;
+$pink: #f9afbd;
+$orquidea: #ffc8ddff;
+$nadeshiko-pink: #ffafccff;
+$light-pink: #f4acb7ff;
+$rosa: #d47788;
+$fuxia:#cc4f9a;
+$hoverA: #f595ce;
+$pink-lavender: #cdb4dbff;
+$rosaTerroso: #9d8189ff;
+$glossy-grape: #b392acff;
+$lavandaVieja: #735d78ff;
+
+
+/*COLORES PARA FORMULARIO*/
+
+$label:#df96c2; 
+$form:#b76962;
+$formbtn: #ffcad4ff;
+$formBorder:#df96c2 ;
+ 
+
+
+
+/* VARIABLE FOCUS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MIXIN*/
+
+
+@mixin caja-flex ($principal, $cruzado, $flow) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-flow: $flow;
+}
+
+
+
+
+%tamanoLogo {
+    width: 60px;
+    clip-path: circle(40%);
+}

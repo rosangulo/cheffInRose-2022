@@ -1,0 +1,188 @@
+/*HEADER*/
+
+
+header {
+    font-size: 15px;
+    font-family: $fauna;
+
+
+    .navbar {
+        list-style-type: none;
+        font-size: 1.625em;
+        background-color: $fondoNav;
+
+        .logo {
+            margin: 5px;
+            width: 100px;
+            box-shadow: 10px;
+            border-radius: 10px;
+
+        }
+
+        li {
+            a {
+                text-decoration: none;
+                color: $li;
+
+                &:hover {
+                    color: $hoverA;
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+
+    }
+}
+
+.navbar-toggler {
+    border: $fondoNav  !important;
+
+}
+
+
+
+main {
+    font-family: 'Fauna One', serif;
+    font-size: 13px;
+    min-height: 80vh;
+
+    h1 {
+        color: $rosaTerroso;
+        font-size: 3.5em;
+        @include caja-flex (center, start, row nowrap);
+    }
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/*FIN DE HAEADER*/
+
+.img-thumbnail {
+
+    margin-left: 25vw;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+
+/*APLICACIONES OCULTAS CON OPACIDAD*/
+.opacity {
+    opacity: 0;
+}
+
+
+/*FORMULARIO DE BUSQUEDA*/
+
+.form-container {
+    margin-left: 1.5em;
+    margin-top: 2.5em;
+    display: grid;
+    gap: 1em;
+
+    .searchhead {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        width: 20.5em;
+
+        /*.form-label {
+            color: $lavandaVieja;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            transform: translateY(10px);
+            transition: transform .5s, color .3s;
+    
+        }*/
+        .formLine {
+            color: $rosa ;
+        }
+
+        .form-input {
+            width: 120px;
+            background: none;
+            color: $rosaTerroso;
+            font-family: $fauna;
+            font-size: 1.1em;
+            padding: .6em .3em;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid $rosa;
+            text-align: center;
+
+            &::placeholder {
+                font-family: "Font Awesome 5 Free"; 
+                font-weight: 900; 
+                color: $rosa;
+            }
+
+            
+
+            /* NO FUNCIONA
+            &:focus ,
+            &:not(:placeholder-shown) {
+                &+.form-label {
+                  
+                    transform: translateY(-12px) scale (.7);
+                    transform-origin: left top;
+                    color: $lavandaVieja;
+                }
+            }*/
+        }
+    }
+
+
+
+}
+
+/*FIN DE FORMULARIO DE BUSQUEDA*/
+
+
+
+/*.container {
+    width: 80%;
+    margin: auto;
+}*/
+
+.presentacion {
+    margin-bottom: 1.2em;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    font-size: 10px;
+    background-color: $fondoNav;
+    height: 40px;
+    @include caja-flex (space-between, center, row nowrap);
+
+    p {
+        color: $lavandaVieja;
+        font-size: 1.1em;
+    }
+
+    div .iconfoot {
+
+        position: relative;
+        height: 3em;
+        width: 5em;
+    }
+}
+
+/*CONTENIDO QUE SOLO APAREZCA EN PANTALLAS GRANDES*/
+
