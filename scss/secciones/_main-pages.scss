@@ -308,19 +308,14 @@
 
         margin-top: auto;
         margin-bottom: 0px;
-        min-width: 100vw;
+        min-width: 95vw;
     }
 
     .uberuns {
         width: 50em;
         @include caja-flex (center, center, nowrap);
 
-        /*.decoim {
-            width: 50em;
-            height: 9.5em;
-            opacity: 0.65;
-            
-        }*/
+       
 
         .sntext {
             @include caja-flex (center, center, column nowrap);
